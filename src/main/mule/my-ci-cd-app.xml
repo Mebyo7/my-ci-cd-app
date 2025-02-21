@@ -17,7 +17,8 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	"message" : "cicd app deployment successfully completed"
+	"message" : "cicd app deployment successfully completed",
+	 "status"  : "successful"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
